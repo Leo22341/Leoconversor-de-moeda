@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none; /*comando remove a linha azul na caixa de seleção*/
+} 
+
+body {
+    background-color: #8C52FF;
+}    
+
+#logo {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+main {
+    background: #F4F4F4;
+    width: 375px;
+    display: block;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 44px 24px 23px ; 
+}
+
+label {
+    color: #777;
+    font-size: 14px;
+    font-weight: 400; 
+}
+
+select, input{
+    appearance: none; /*comando para retirar a seta da caixa do select*/
+    background: #FFF;
+    border: 1px solid #BBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    padding-left: 22px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #555;
+}
+
+button {
+    border-radius: 5px;
+    background: #772FD3;
+    width: 327px;
+    height: 48px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+
+}
